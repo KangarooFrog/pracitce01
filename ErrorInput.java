@@ -9,7 +9,7 @@ public class ErrorInput {
 
 		    Scanner scan = new Scanner(System.in);
 
-		    String str = scan.nextLine();
+		    String str = scan.next();
 		    System.out.println("二つ目の入力値は: "+ str);
 
 		    scan.close();
